@@ -1,6 +1,8 @@
 // ignore_for_file: sort_child_properties_last
 
 import 'package:flutter/material.dart';
+import 'package:flutter_iot_second_app/views/signin_ui.dart';
+import 'package:flutter_iot_second_app/views/signup_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeUi extends StatelessWidget {
@@ -58,7 +60,14 @@ class HomeUi extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 OutlinedButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SigninUi(),
+                      ),
+                    );
+                  },
                   child: Text(
                     'LOGIN',
                     style: TextStyle(
@@ -79,7 +88,14 @@ class HomeUi extends StatelessWidget {
                   width: 50.0,
                 ),
                 ElevatedButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignupUi(),
+                      ),
+                    );
+                  },
                   child: Text(
                     'SIGNUP',
                    style: TextStyle(
