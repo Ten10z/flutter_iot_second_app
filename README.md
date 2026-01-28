@@ -2,7 +2,7 @@
 
 ## UI Only for HomeUi, SigninUi, SignupUi
 
-<img width="250" src="https://github.com/user-attachments/assets/f0aa8a8d-b25b-41a0-9d47-0db4c3a67a33" />
+<img width="250" src="https://github.com/user-attachments/assets/468ba82f-e9a1-492f-8261-d3ebb0188f3c" />
 
 <img width="250" src="https://github.com/user-attachments/assets/c17f2f1b-14f2-4856-8688-cf408cd88aff" />
 
